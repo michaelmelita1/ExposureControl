@@ -1,0 +1,10 @@
+Package: com.michaelmelita1.exposurecontrol
+Version: 0.0.1
+Architecture: iphoneos-arm64
+Maintainer: Michael Melita
+Depends: mobilesubstrate, firmware (>= 15.0)
+Section: Tweaks
+Description: Exposure Control for iPhone XS
+Author: Michael Melita
+Name: ExposureControl
+Sileodepiction: https://michaelmelita1.github.io/sileodepictions/com.michaelmelita1.exposurecontrol/info.json
