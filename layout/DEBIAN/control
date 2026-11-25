@@ -1,0 +1,10 @@
+Package: com.michaelmelita1.exposurecontrol
+Version: 0.1.0
+Architecture: iphoneos-arm64
+Maintainer: Michael Melita
+Depends: mobilesubstrate, firmware (>= 15.0), cy+model.iphone (= 11.2) | cy+model.iphone (= 11.4) | cy+model.iphone (= 11.6) | cy+model.iphone (= 11.8)
+Section: Tweaks
+Description: iPhone 11 camera features for the iPhone XS, XS Max and XR
+Author: Michael Melita
+Name: ExposureControl
+Sileodepiction: https://michaelmelita1.github.io/sileodepictions/com.michaelmelita1.exposurecontrol/info.json

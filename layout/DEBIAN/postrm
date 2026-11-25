@@ -1,0 +1,10 @@
+#!/bin/sh
+case "$1" in
+remove|purge)
+	# The camera daemon keeps its parsed (patched) camera config here; drop it so Apple's is used again.
+	rm -f /var/mobile/Library/Preferences/com.apple.cameracapture.volatile.plist
+	killall -9 cfprefsd 2>/dev/null
+	killall -9 mediaserverd cameracaptured Camera 2>/dev/null
+	;;
+esac
+exit 0

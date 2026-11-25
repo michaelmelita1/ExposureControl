@@ -1,0 +1,5 @@
+#!/bin/sh
+# Restart the camera daemon (mediaserverd on iOS 15-16, cameracaptured on iOS 17+) and Camera
+# so they load the tweak. The daemon clears its cached camera config itself when the tweak loads.
+killall -9 mediaserverd cameracaptured Camera 2>/dev/null
+exit 0
